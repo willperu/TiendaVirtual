@@ -90,6 +90,19 @@ TiendaVirtual/
 
 ▶️ Cómo ejecutar el proyecto
 
+Acceso al sistema
+
+Al ejecutar TiendaVirtual, el sistema solicita ingresar un nombre de usuario.
+
+Para probar las funcionalidades disponibles, utiliza uno de los siguientes usuarios:
+
+Admin → Accede al menú de administrador con opciones de gestión completas.
+
+Cliente1 → Accede al menú de cliente con opciones de compra y consulta.
+
+⚠️ Importante: Debes escribir el nombre exactamente como aparece (respeta mayúsculas y minúsculas).
+
+
 Desde consola:
 
 ant clean jar
