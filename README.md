@@ -1,59 +1,50 @@
-🛒 TiendaVirtual — Sistema de Ventas Concurrentes
-📌 Descripción
+**TiendaVirtual — Sistema de Ventas Concurrentes**
+
+📌 **Descripción**
 
 TiendaVirtual es una aplicación backend desarrollada en Java que simula el funcionamiento
 de una tienda online con múltiples clientes comprando simultáneamente.
+
 El proyecto fue diseñado para demostrar habilidades en programación orientada a objetos,
 concurrencia, arquitectura por capas y control de versiones.
 
-🎯 Objetivos del proyecto
+---
+
+🎯 **Objetivos del proyecto**
 
 - Simular compras concurrentes
-
 - Controlar stock en tiempo real
-
 - Evitar condiciones de carrera
-
 - Implementar lógica de negocio desacoplada
-
 - Aplicar buenas prácticas de arquitectura
 
+---
 
-⚙️ Tecnologías utilizadas
+⚙️ **Tecnologías utilizadas**
 
 - Java
+- Spring Initializr
+- Apache Ant
+- NetBeans
+- MySQL Workbench 8.0 CE
+- Git
+- GitHub
 
-- Spring Initializr (estructura base del proyecto)
+---
 
-- Apache Ant (compilación y empaquetado)
+🧠 **Conceptos aplicados**
 
-- NetBeans (IDE de desarrollo)
-
-- Git (control de versiones)
-
-- GitHub (repositorio remoto)
-
-
-🧠 Conceptos aplicados
-
-- Programación orientada a objetos (POO)
-
-- Programación concurrente (Threads)
-
+- Programación orientada a objetos
+- Programación concurrente
 - Arquitectura en capas
-
 - Encapsulamiento
-
 - Separación de responsabilidades
-
 - Manejo de colecciones
-
 - Simulación de transacciones
 
+---
 
-🧱 Arquitectura del proyecto
-
-El sistema está organizado en capas:
+🧱 **Arquitectura del proyecto**
 
 - DAO → Acceso a datos
 - Servicios → Lógica de negocio
@@ -61,92 +52,83 @@ El sistema está organizado en capas:
 - Utils → Utilidades
 - Test → Simulaciones concurrentes
 
+---
 
-🧪 Simulación concurrente
+🧪 **Simulación concurrente**
 
-El proyecto incluye un módulo de pruebas que simula múltiples clientes intentando
-comprar el mismo producto al mismo tiempo.
+El proyecto incluye un módulo de pruebas que simula múltiples clientes intentando comprar el mismo producto al mismo tiempo.
 
 Esto permite validar:
 
 - control de stock
-
 - sincronización
-
 - integridad de datos
-
 - comportamiento bajo carga
 
+---
 
+📂 **Estructura del repositorio**
 
-📂 Estructura del repositorio
 TiendaVirtual/
- ├── src/
- ├── test/
- ├── nbproject/
- ├── manifest.mf
- └── .gitignore
+├── src/
+├── test/
+├── nbproject/
+├── manifest.mf
+└── .gitignore
 
+---
 
-▶️ Cómo ejecutar el proyecto
+▶️ **Cómo ejecutar**
 
-Acceso al sistema
+Acesso ao sistema
 
-Al ejecutar TiendaVirtual, el sistema solicita ingresar un nombre de usuario.
+Ao executar o TiendaVirtual, o sistema solicita a inserção de um nome de usuário.
 
-Para probar las funcionalidades disponibles, utiliza uno de los siguientes usuarios:
+Para testar os recursos disponíveis, utilize um dos seguintes usuários:
 
-Admin → Accede al menú de administrador con opciones de gestión completas.
+Admin → Acesse o menu do administrador com opções de gerenciamento completas.
 
-Cliente1 → Accede al menú de cliente con opciones de compra y consulta.
+Cliente1 → Acesse o menu do cliente com opções de compra e consulta.
 
-⚠️ Importante: Debes escribir el nombre exactamente como aparece (respeta mayúsculas y minúsculas).
-
+⚠️Importante: Você deve escrever o nome exatamente como aparece (respeitos minúsculos e minúsculos).
 
 Desde consola:
 
-ant clean jar
-java -jar dist/TiendaVirtual.jar
-📊 Resultados esperados
+ant clean jar java -jar dist/TiendaVirtual.jar
 
+---
 
+📊 **Resultados esperados**
 
 Durante la simulación:
 
-algunos clientes logran comprar
+- algunos clientes logran comprar
+- otros fallan por falta de stock
+- el sistema mantiene consistencia
 
-otros fallan por falta de stock
+---
 
-el sistema mantiene consistencia
-
-
-
-👨‍💻 Autor
+👨‍💻 **Autor**
 
 Proyecto desarrollado por Willperu como parte de portafolio profesional backend.
 
+---
 
-🤖 Nota
+🤖 **Nota**
 
-Este proyecto fue diseñado, estructurado y optimizado con apoyo de inteligencia artificial
-como asistente técnico, siendo el desarrollo, comprensión e implementación realizados por el autor.
+Este proyecto fue diseñado, estructurado y optimizado con apoyo de inteligencia artificial como asistente técnico, siendo el desarrollo, comprensión e implementación realizados por el autor.
 
+---
 
-
-🚀 Próximas mejoras
+🚀 **Próximas mejoras**
 
 - API REST
-
 - Base de datos real
-
-- Autenticación de usuarios
-
+- Autenticación
 - Panel administrativo
+- Tests automatizados
+- Docker
 
-- Pruebas unitarias automatizadas
+---
 
-- Dockerización
-
-
-
-⭐ Proyecto educativo con fines demostrativos para portafolio profesional.
+⭐ Proyecto educativo para portafolio profesional.
